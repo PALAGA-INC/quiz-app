@@ -5,12 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #001aff;
+  background-color: #1d1d1d;
 }
 * {
   font-family: "Verdana", cursive, sans-serif;
-  outline: 1px dotted red;
   box-sizing: border-box;
+  outline: #e84a5f 1px dotted;
 }
 
 button {
@@ -32,13 +32,13 @@ button:hover {
 }
 
 .app {
-  background-color: #2a363b;
-  width: 60%;
+  background-color: #1f4742;
+  width: 30%;
   height: 500px;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 .center {
   display: flex;
@@ -54,11 +54,11 @@ button:hover {
 .question-section,
 .button-section {
   padding: 1rem;
-  width: 50%;
 }
 
 .question-section {
   color: aliceblue;
+  width: 70%;
 }
 
 .score-section {
